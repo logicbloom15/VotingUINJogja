@@ -13,7 +13,7 @@ const candidates = [
     { id: 'Algian', name: 'Algian Muhammad Resoli', role: 'Kandidat 12', image: 'Algian.jpeg', vision: 'VISI: Menjadikan Angkatan 26 sebagai angkatan yang kompak, aktif, dan bermanfaat bagi sesama, kampus, dan masyarakat.', mission: 'MISI:\n 1. Komunikasi: Memperkuat koordinasi dan saling memberi informasi antar angkatan 26\n 2. Kebersamaan: Mempererat tali kekeluargaan dan solidaritas antar anggota angkatan 26\n 3. Aspirasi: Menampung aspirasi anggota serta menjembatani dengan pihak jurusan, fakultas, atau kampus'}
 ];
 
-const ADMIN_PIN = '2026';
+const ADMIN_PIN = '2503';
 const VOTED_STORAGE_KEY = 'emeraldVoteSubmitted';
 const VOTED_ROUND_KEY = 'emeraldVoteRound';
 const ELECTION_STATE_PATH = 'settings/election';

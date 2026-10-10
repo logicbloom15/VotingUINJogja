@@ -117,9 +117,6 @@ function renderCandidates(votes = {}) {
                     <p class="mission-text">${missionText}</p>
                     <div class="d-flex gap-2">
                         <button class="btn btn-success flex-grow-1 vote-button" data-vote="${candidate.id}">Pilih kandidat</button>
-                    </div>
-                    <div class="small text-secondary mt-3">Suara saat ini: <strong>${votes[candidate.id] || 0}</strong></div>
-                </div>
             </article>
         </div>
     `;
